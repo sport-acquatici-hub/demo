@@ -2,13 +2,20 @@
 <html lang="it">
 <head>
   <meta charset="UTF-8">
-  <title>Video CapCut</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Per te ❤️</title>
 </head>
-<body>
-  <h1>Guarda il mio video!</h1>
-  <video width="640" height="360" controls autoplay>
-    <source src="video.mp4" type="video/mp4">
+
+<body style="margin:0; background:black; display:flex; align-items:center; justify-content:center; height:100vh;">
+
+  <video 
+    src="video.mp4"
+    controls
+    playsinline
+    style="width:100%; height:100%; object-fit:contain;"
+  >
     Il tuo browser non supporta il video.
   </video>
+
 </body>
 </html>
